@@ -1,3 +1,23 @@
+/*
+Aim:
+To demonstrate constructors and destructors in nested classes.
+
+Algorithm:
+1. Start the program.
+2. Create Department class with constructor and destructor.
+3. Create University class containing Department object.
+4. Initialize using constructor initializer list.
+5. Display data.
+6. Destructor messages display automatically.
+7. Stop.
+
+Output:
+Department Computer Science created.
+University SCSVMV University initialized.
+University: SCSVMV University, Department: Computer Science
+University SCSVMV University closed.
+Department Computer Science destroyed.
+*/
 #include<iostream>
 #include <string>
 using namespace std;
