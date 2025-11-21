@@ -1,3 +1,23 @@
+/*
+Aim:
+To implement constructor overloading and static member variables using a BankAccount class.
+
+Algorithm:
+1. Start the program.
+2. Define class BankAccount with accNo, name, balance, and static count.
+3. Create default constructor and parameterized constructor.
+4. Implement deposit() and withdraw() functions.
+5. Create objects using constructors.
+6. Display object details.
+7. Display total accounts using static function.
+8. Stop.
+
+Output:
+Acc No: 0, Name: , Balance: 5000
+Acc No: 1001, Name: Arjun, Balance: 23000.8
+Acc No: 1002, Name: Meena, Balance: 40000.5
+Total Accounts: 3
+*/
 #include <iostream>
 using namespace std;
 class BankAccount {
