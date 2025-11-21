@@ -1,3 +1,22 @@
+/*
+Aim:
+To develop a class Car that stores and displays car details.
+
+Algorithm:
+1. Start the program.
+2. Define class Car with model, company, and price.
+3. Define display() to print details.
+4. Create three car objects.
+5. Assign values to each object.
+6. Call display() to print details.
+7. End the program.
+
+Output:
+Company: Toyota, Model: Innova, Price: Rs.2000000
+Company: Honda, Model: City, Price: Rs.1200000
+Company: Hyundai, Model: i20, Price: Rs.800000
+*/
+
 #include<iostream>
 using namespace std;
 class car{
