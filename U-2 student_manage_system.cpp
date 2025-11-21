@@ -1,3 +1,33 @@
+/*
+Aim:
+To design a C++ program using classes that manages student details and demonstrates
+constructors, destructors, static members, inline functions, arrays, objects as arguments,
+and returning objects.
+
+Algorithm:
+1. Start the program.
+2. Define class Student with name, roll, marks[5], and static count.
+3. Implement parameterized constructor to initialize members.
+4. Implement destructor to display message when object is deleted.
+5. Create inline function totalMarks() to return total.
+6. Add static function showCount() to display number of students.
+7. Create function printGrade(Student) to print grade.
+8. Create function topper(Student[], int) to return topper object.
+9. Create array of Student objects.
+10. Display grade of each student and display topper.
+11. Display count.
+12. Stop.
+
+Output:
+Ravi Grade: A
+Sita Grade: B
+Anu Grade: A+
+Topper: Anu
+Total Students: 3
+Destructor called for Anu
+Destructor called for Sita
+Destructor called for Ravi
+*/
 #include <iostream>
 using namespace std;
 
