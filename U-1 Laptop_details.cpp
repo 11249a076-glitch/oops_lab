@@ -1,3 +1,20 @@
+/*
+Aim:
+To write a C++ program to represent laptop details using classes and objects.
+
+Algorithm:
+1. Start the program.
+2. Define a class Laptop with data members brand, processor, and ram.
+3. Define a member function display() to print laptop details.
+4. Create two laptop objects.
+5. Assign values to each object.
+6. Call display() to print details.
+7. Stop the program.
+
+Output:
+Brand: Dell, Processor: Intel i5, RAM: 8GB
+Brand: HP, Processor: AMD Ryzen 5, RAM: 16GB
+*/
 #include<iostream>
 using namespace std;
 class laptop{
