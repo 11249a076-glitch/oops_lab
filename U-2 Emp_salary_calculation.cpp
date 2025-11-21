@@ -1,3 +1,21 @@
+/*
+Aim:
+To demonstrate constructors with default arguments and calculate bonus.
+
+Algorithm:
+1. Start program.
+2. Create class Employee with id, name, and salary.
+3. Use constructor with default arguments.
+4. Implement calcBonus() to compute 10% bonus.
+5. Create objects with and without passing arguments.
+6. Display salary and bonus.
+7. Stop.
+
+Output:
+ID: 101, Name: Ravi, Salary: 50000, Bonus: 5000
+ID: 102, Name: Priya, Salary: 60000, Bonus: 6000
+ID: 0, Name: Unknown, Salary: 0, Bonus: 0
+*/
 #include <iostream>
 using namespace std;
 
